@@ -1,0 +1,40 @@
+//parte uno 
+public class Main {
+    public static void main(String[] args) {
+       suma(76, 30, 78);
+
+    }
+
+    public static void suma(int a, int b, int c) {
+        int resultado;
+        resultado = a + b + c;
+
+        System.out.println(resultado);
+
+    }
+}
+
+//parte dos
+public class Coche {
+    //Atributos
+    String color;
+    int puertas;
+    int km;
+    int Puerta;
+    //Metodo
+    public static void main(String [] args) {
+       Coche coche1 = new Coche();
+       Coche miCoche = new Coche();
+       miCoche.Puerta = 1;
+       coche1.color = "Rojo";
+       coche1.puertas = 2;
+       coche1.km = 0;
+       coche1.puertas ++;
+
+       System.out.println("El color del choche es:" + coche1.color);
+       System.out.println("El kilometraje del choche es:" + coche1.km);
+       System.out.println("El número de puertas del choche es:" + coche1.puertas);
+       System.out.println("\nEl numero de puertas del objeto miCoche es:" + miCoche.Puerta);
+       
+    }
+}
